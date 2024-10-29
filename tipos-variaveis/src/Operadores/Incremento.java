@@ -10,9 +10,8 @@ public class Incremento {
 
         System.out.println(numero);
 
-        numero--;
+        numero--; //Decremento
 
         System.out.println(numero);
-
     }
 }
