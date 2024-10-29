@@ -1,4 +1,4 @@
-package Operadores;
+package operadores;
 
 public class Unarios {
         public static void main(String[] args) {
@@ -13,10 +13,9 @@ public class Unarios {
 
             System.out.println(numero);
 
-            numero = numero * -1;
+            numero = numero * -1; //aqui já transformou de voltar para o positivo, pois foi necessário realizar essa multiplicação com -1
 
-            System.out.println(numero);
-
+            System.out.println(numero); 
 
         }
 }
